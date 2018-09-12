@@ -10,7 +10,7 @@
 
 ## Install in 5 Steps
 
-Open *RStudio* and create a new project.
+Open [RStudio](https://www.rstudio.com/products/rstudio/) and create a new project.
 
 Run the following commands in RStudio to bootstrap your new project website with **Project Kickstart-R**:
 
