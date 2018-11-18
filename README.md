@@ -45,7 +45,9 @@ Run the following commands in RStudio to bootstrap your new project website with
 
 **View your new site**:
 
-    `blogdown::serve_site()`
+```r
+blogdown::serve_site()
+```
 
 A browser tab should open, displaying your new website. Otherwise, check your RStudio console messages.
 
