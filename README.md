@@ -51,6 +51,8 @@ blogdown::serve_site()
 
 A browser tab should open, displaying your new website. Otherwise, check your RStudio console messages.
 
+**R content should be saved with the `.Rmarkdown` file extension** rather than the `.Rmd` extension.
+
 Finally, learn how to [customize](https://sourcethemes.com/academic/docs/get-started/) and [deploy](https://sourcethemes.com/academic/docs/deployment/) your site.
 
 ## Ecosystem
