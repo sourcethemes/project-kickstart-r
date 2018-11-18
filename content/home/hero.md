@@ -1,6 +1,6 @@
 +++
 # Hero widget.
-widget = "hero_img"
+widget = "hero_img"  # Do not modify this line!
 active = true
 date = 2017-10-15
 

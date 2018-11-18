@@ -1,10 +1,19 @@
 # Project Kickstart-R
 
-**Project Kickstart-R** provides a minimal template to create a **Landing Page** and **Knowledge Sharing Platform** with *Academic* and **(R) Markdown**.
+**Project Kickstart-R** provides a minimal template to create a **Landing Page** and **Knowledge Sharing Platform** with *Academic* and (R) Markdown.
 
-**Academic** is a framework to help you create a beautiful website quickly.
+**Academic** makes it easy to create a beautiful website for free using (R) Markdown. Customize anything on your site with widgets, themes, and language packs.
 
-[Check out the demo](https://sourcethemes.com/academic/) of what you'll get in less than 5 minutes or [view the documentation](https://sourcethemes.com/academic/docs/).
+- [Explore the demo](https://sourcethemes.com/academic/)
+- [Read the documentation](https://sourcethemes.com/academic/docs/)
+- Ask a question [on the forums](http://discuss.gohugo.io/) or [Stack Overflow](https://stackoverflow.com/questions/tagged/blogdown)
+- [Request a feature or report a bug](https://github.com/gcushen/hugo-academic/issues)
+- Updating? View the [Update Guide](https://sourcethemes.com/academic/docs/update/) and [Release Notes](https://sourcethemes.com/academic/updates/)
+- Support development of Academic:
+  - [Donate a coffee](https://paypal.me/cushen)
+  - [Become a backer on Patreon](https://www.patreon.com/cushen)
+  - [Decorate your laptop or journal with an Academic sticker](https://www.redbubble.com/people/neutreno/works/34387919-academic)
+  - [Wear the T-shirt](https://academic.threadless.com/)
 
 [![Screenshot](https://raw.githubusercontent.com/sourcethemes/project-kickstart-r/master/project-kickstart-r.png)](https://github.com/sourcethemes/project-kickstart-r)
 
@@ -34,10 +43,18 @@ Run the following commands in RStudio to bootstrap your new project website with
 
     `unzip( zipfile = "project-kickstart-r.zip", junkpaths = TRUE )`
 
+**View your new site**:
+
+    `blogdown::serve_site()`
+
 A browser tab should open, displaying your new website. Otherwise, check your RStudio console messages.
 
 Finally, learn how to [customize](https://sourcethemes.com/academic/docs/get-started/) and [deploy](https://sourcethemes.com/academic/docs/deployment/) your site.
 
+## Ecosystem
+
+* **[Academic Admin](https://github.com/sourcethemes/academic-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
+* **[Academic Scripts](https://github.com/sourcethemes/academic-scripts):** Scripts to help migrate content to new versions of Academic
 
 ## License
 

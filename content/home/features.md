@@ -1,5 +1,5 @@
 +++
-widget = "featurette"
+widget = "featurette"  # Do not modify this line!
 active = true
 date = "2017-11-21"
 
