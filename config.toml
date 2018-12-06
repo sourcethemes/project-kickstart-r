@@ -111,6 +111,8 @@ enableGitInfo = false
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
   color_theme = "ocean"
+  # Enable users to switch between day and night mode?
+  day_night = true
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.

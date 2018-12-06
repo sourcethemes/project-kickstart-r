@@ -36,13 +36,14 @@ Open [RStudio](https://www.rstudio.com/products/rstudio/) and run the following 
 3. Install the [Blogdown](https://bookdown.org/yihui/blogdown/) and [Hugo](https://gohugo.io/) dependencies:
 
     ```r
-    install.packages(c("blogdown", "hugo"))
+    install.packages("blogdown")
+    blogdown::install_hugo()
     ```
 
-4. Install the [Academic](https://sourcethemes.com/academic/) dependency:
+4. Install the [Academic](https://sourcethemes.com/academic/) framework:
 
     ```r
-    blogdown::new_site(theme = "gcushen/hugo-academic", sample = FALSE, theme_example = FALSE)
+    blogdown::install_theme(theme = "gcushen/hugo-academic")
     ```
 
 5. View your new site:
