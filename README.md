@@ -1,8 +1,8 @@
 # Project Kickstart-R
 
-**Project Kickstart-R** provides a minimal template to create a **Landing Page** and **Knowledge Sharing Platform** with *Academic* and (R) Markdown.
+**Project Kickstart-R** provides a minimal template to create a **Landing Page** and **Knowledge Sharing Platform** with *Academic* and (R) Markdown. Popular applications include creating sites for organizations, software documentation, online courses, conferences, and academic labs.
 
-**Academic** makes it easy to create a beautiful website for free using (R) Markdown. Customize anything on your site with widgets, themes, and language packs.
+[**Academic**](https://sourcethemes.com/academic/) makes it easy to create a beautiful website for free using (R) Markdown. Customize anything on your site with widgets, themes, and language packs.
 
 - [Explore the demo](https://sourcethemes.com/academic/)
 - [Read the documentation](https://sourcethemes.com/academic/docs/)
@@ -19,41 +19,47 @@
 
 ## Install in 5 Steps
 
-Open [RStudio](https://www.rstudio.com/products/rstudio/) and create a new project.
+Open [RStudio](https://www.rstudio.com/products/rstudio/) and run the following commands to create your new project website with **Project Kickstart-R**:
 
-Run the following commands in RStudio to bootstrap your new project website with **Project Kickstart-R**:
+1. Download [**Project Kickstart-R**](https://github.com/sourcethemes/project-kickstart-r/archive/master.zip) to your working directory:
 
-1. Install the [Blogdown](https://bookdown.org/yihui/blogdown/) dependency:
+    ```r
+    download.file( url = "https://github.com/sourcethemes/project-kickstart-r/archive/master.zip", destfile="project-kickstart-r.zip")
+    ```
 
-    `install.packages("blogdown")`
+2. Extract the ZIP file and open the `project-kickstart-r.Rproj` project:
 
-2. Install the [Hugo](https://gohugo.io/) dependency:
+    ```r
+    unzip( zipfile = "project-kickstart-r.zip" )
+    ```
 
-    `install.packages("hugo")`
+3. Install the [Blogdown](https://bookdown.org/yihui/blogdown/) and [Hugo](https://gohugo.io/) dependencies:
 
-3. Install the [Academic](https://sourcethemes.com/academic/) dependency:
+    ```r
+    install.packages(c("blogdown", "hugo"))
+    ```
 
-    `blogdown::new_site(theme = "gcushen/hugo-academic", sample = FALSE, theme_example = FALSE)`
+4. Install the [Academic](https://sourcethemes.com/academic/) dependency:
 
-4. Download **Project Kickstart-R**:
+    ```r
+    blogdown::new_site(theme = "gcushen/hugo-academic", sample = FALSE, theme_example = FALSE)
+    ```
 
-    `download.file( url = "https://github.com/sourcethemes/project-kickstart-r/archive/master.zip", destfile="project-kickstart-r.zip")`
+5. View your new site:
 
-5. Install **Project Kickstart-R** into your new project folder:
+    ```r
+    blogdown::serve_site()
+    ```
 
-    `unzip( zipfile = "project-kickstart-r.zip", junkpaths = TRUE )`
+A browser tab should open, displaying your new website. Otherwise, check your RStudio console messages - you may need to restart RStudio after installing the dependencies.
 
-**View your new site**:
+## Next Steps
 
-```r
-blogdown::serve_site()
-```
+Learn how to [customize](https://sourcethemes.com/academic/docs/get-started/) your site, [create content](https://sourcethemes.com/academic/docs/managing-content/), and [edit content using R Markdown and shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
 
-A browser tab should open, displaying your new website. Otherwise, check your RStudio console messages.
-
-**R content should be saved with the `.Rmarkdown` file extension** rather than the `.Rmd` extension.
-
-Finally, learn how to [customize](https://sourcethemes.com/academic/docs/get-started/) and [deploy](https://sourcethemes.com/academic/docs/deployment/) your site.
+Note that **R content should be saved with the `.Rmarkdown` file extension** rather than `.Rmd`.
+ 
+Finally, [deploy](https://sourcethemes.com/academic/docs/deployment/) your site to the internet.
 
 ## Ecosystem
 
