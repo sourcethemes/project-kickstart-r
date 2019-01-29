@@ -43,7 +43,7 @@ Open [RStudio](https://www.rstudio.com/products/rstudio/) and run the following 
 4. Install the [Academic](https://sourcethemes.com/academic/) framework:
 
     ```r
-    blogdown::install_theme(theme = "gcushen/hugo-academic")
+    blogdown::install_theme(theme = "gcushen/hugo-academic@v3.3.1")
     ```
 
 5. View your new site:
