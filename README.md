@@ -1,5 +1,9 @@
 # Project Kickstart-R
 
+> ## This template is deprecated. It has been replaced by *Academic Kickstart*. [Install Academic Kickstart](https://sourcethemes.com/academic/docs/install/#install-with-rstudio) instead.
+
+---
+
 **Project Kickstart-R** provides a minimal template to create a **Landing Page** and **Knowledge Sharing Platform** with *Academic* and (R) Markdown. Popular applications include creating sites for organizations, software documentation, online courses, conferences, and academic labs.
 
 [**Academic**](https://sourcethemes.com/academic/) makes it easy to create a beautiful website for free using (R) Markdown. Customize anything on your site with widgets, themes, and language packs.
